@@ -1,6 +1,6 @@
 {
   "name": "openapi2mcptools",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "",
   "main": "dist/index.js",
@@ -18,10 +18,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "@scalar/openapi-parser": "^0.8.10",
-    "axios": "^1.7.9"
+    "@scalar/openapi-parser": "^0.8.10"
   },
   "devDependencies": {
     "@scalar/openapi-types": "^0.1.5",
