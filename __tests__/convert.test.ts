@@ -1,7 +1,7 @@
-import { describe, it, expect } from 'vitest';
-import { Converter } from '../lib/converter';
-import sample from './sample-github.json';
-import { HTTPClient } from '../lib/http-client';
+import {describe, it, expect} from 'vitest';
+import {Converter} from '../lib/converter';
+import sample from './sample.json';
+import {HTTPClient} from '../lib/http-client';
 
 describe('get tools list', () => {
   it('get tools list', async () => {
@@ -43,7 +43,7 @@ describe('get tools caller', () => {
   class MockHTTPClient implements HTTPClient {
     async request(requestConfig: any) {
       result = requestConfig;
-      return { data: {} };
+      return {data: {}};
     }
   }
   it('get tools caller', async () => {

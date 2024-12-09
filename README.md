@@ -52,9 +52,25 @@ const transport = new StdioServerTransport();
 await server.connect(transport);
 ```
 
-## Customize client
+## Custom client
 
 Set `baseURL`, `headers`, etc for http client.
+
+```ts
+export type RequestConfig = {
+  url?: string;
+  method?: string;
+  headers?: any;
+  params?: any;
+  data?: any;
+}
+
+export interface HTTPClient {
+  request: (requestConfig: RequestConfig) => Promise<{ data: any }>;
+}
+```
+
+Example:
 
 ```ts
 import axios from axios;
