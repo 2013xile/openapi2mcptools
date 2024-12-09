@@ -1,0 +1,32 @@
+{
+  "name": "openapi2mcptools",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@scalar/openapi-parser": "^0.8.10",
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "@scalar/openapi-types": "^0.1.5",
+    "@types/node": "^22.7.5",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.9.0",
+    "eslint": "8.57.0",
+    "eslint-config-google": "^0.14.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  }
+}
