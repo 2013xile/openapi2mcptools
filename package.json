@@ -12,6 +12,10 @@
     "dist",
     "package.json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2013xile/openapi2mcptools.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
